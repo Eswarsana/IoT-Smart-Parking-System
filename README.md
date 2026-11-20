@@ -58,6 +58,20 @@ Receives and stores parking-status data transmitted through the Bluetooth module
 6. The Telnet application receives and records the data.
 7. Parking availability information is communicated to the surveillance team.
 
+## Arduino Pin Configuration
+
+| S.No | Component | Arduino Uno Pin |
+|---|---|---|
+| 1 | Bluetooth RX | D2 |
+| 2 | Bluetooth TX | D3 |
+| 3 | IR Sensor – Slot 1 | D4 |
+| 4 | IR Sensor – Slot 2 | D5 |
+| 5 | IR Sensor – Slot 3 | D6 |
+| 6 | LED – Slot 1 | D7 |
+| 7 | LED – Slot 2 | D8 |
+| 8 | LED – Slot 3 | D9 |
+
+
 ## Technologies Used
 
 - Internet of Things (IoT)
